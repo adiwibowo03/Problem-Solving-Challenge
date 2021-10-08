@@ -40,7 +40,7 @@ public class BallControl : MonoBehaviour
         rigidBody2D = GetComponent<Rigidbody2D>();
  
         // Mulai game
-        Invoke("PushBall", 2);
+        //Invoke("PushBall", 2);
 
     }
 

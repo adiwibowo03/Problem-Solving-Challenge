@@ -406,7 +406,7 @@ MonoBehaviour:
   speed: 10
   xInitialForce: 50
   yInitialForce: 15
-  Mspeed: 5
+  Mspeed: 10
 --- !u!114 &153394871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1017,7 +1017,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -30.08, y: -29.3}
+  m_AnchoredPosition: {x: -30.080017, y: -29.300049}
   m_SizeDelta: {x: 178.02306, y: 29.167126}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1839289798
