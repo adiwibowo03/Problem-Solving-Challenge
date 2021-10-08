@@ -11,7 +11,9 @@ public class BallControl : MonoBehaviour
     public float xInitialForce;
     public float yInitialForce;
 
+    //kecepatan arah mouse
     public float Mspeed;
+
      void PushBall()
     {
         // Tentukan nilai komponen y dari gaya dorong antara -yInitialForce dan yInitialForce
@@ -38,7 +40,7 @@ public class BallControl : MonoBehaviour
         rigidBody2D = GetComponent<Rigidbody2D>();
  
         // Mulai game
-        Invoke("PushBall", 2);
+        //Invoke("PushBall", 2);
 
     }
 
@@ -66,11 +68,6 @@ public class BallControl : MonoBehaviour
         else if (Input.GetKey(KeyCode.RightArrow))
         {
             velocity.x = speed;
-        }
-        // Jika pemain tidak menekan tombol apa-apa, kecepatannya nol.
-        else
-        {
-            velocity.y = 0.0f;
         }
  
         // Masukkan kembali kecepatannya ke rigidBody2D.
